@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Basenji";
+  src: url("Fonts/basenji.otf") format("truetype");
+}
+
+body {
+  font-family: "Basenji", sans-serif;
+  background-image: url("images/BosAchtergrond.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+h1 {
+  text-align: center;
+  top: 0;
+  font-size: 45px;
+}
+
+#logoPetPal {
+  width: 225px;
+  height: auto;
+}
+
+section {
+  width: 30vw;
+}
+
+#knipperendKonijn {
+  position: fixed;
+  right: 4rem;
+  top: 15%;
+  width: 15vw;
+}
+
+#knipperendKonijn img {
+  position: absolute; /* Stapel de afbeeldingen boven op elkaar */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+#KonijnOgenDicht {
+  opacity: 0; /* Maak de tweede afbeelding onzichtbaar */
+}
+
+#achtergrondStack {
+  display: flex;
+  max-width: 50em;
+  gap: 2em;
+}
+
+#achtergrondStack img {
+  max-width: 15em;
+  cursor: pointer;
+}
+
+#keuzesStack {
+  display: flex;
+  gap: 9em;
+}
+
+#keuzesStack img {
+  width: 6em;
+  cursor: pointer;
+  height: auto;
+}
+#konijn {
+  position: fixed;
+  right: 4rem;
+  top: 15%;
+  width: 15vw;
+}
+.hidden {
+  display: none;
+}

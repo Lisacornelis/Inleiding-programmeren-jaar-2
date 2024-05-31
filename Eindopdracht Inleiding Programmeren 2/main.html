@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <a href="index.html"
+      ><img id="logoPetPal" src="images/Logo.png" alt="Logo"
+    /></a>
+    <!-- Hieronder het welkomsbericht dat dmv de form wordt aangepast. -->
+    <div class="welkomContainer">
+      <h1 id="welkomstBericht">Welkom!</h1>
+    </div>
+    <section>
+      <div id="knipperendKonijn">
+        <img id="KonijnOgenOpen" src="images/KonijnOgenOpen.png" />
+        <img id="KonijnOgenDicht" src="images/KonijnOgenDicht.png" />
+      </div>
+    </section>
+    <section>
+      <div id="achtergrondStack">
+        <img id="bosAchtergrond" src="images/BosAchtergrond.jpeg" />
+        <img id="boerderijAchtergrond" src="images/BoerderijAchtergrond.jpeg" />
+        <img id="binnenAchtergrond" src="images/BinnenAchtergrond.jpeg" />
+      </div>
+    </section>
+    <section>
+      <div id="keuzesStack">
+        <img
+          id="konijnWortel"
+          src="images/KonijnWortel.png"
+          onclick="veranderAfbeelding('KonijnWortel.png')"
+        />
+        <img
+          id="konijnBloemen"
+          src="images/KonijnBloemen.png"
+          onclick="veranderAfbeelding('KonijnBloemen.png')"
+        />
+        <img
+          id="konijnSieraden"
+          src="images/KonijnSieraden.png"
+          onclick="veranderAfbeelding('KonijnSieraden.png')"
+        />
+      </div>
+    </section>
+    <section>
+      <img id="konijn" src="images/KonijnWortel.png" class="hidden" />
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
